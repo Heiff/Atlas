@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "logo",
+    "image": "logo.png",
+    "price": "pass"
+  },
+  {
+    "id": 2,
+    "title": "smart1",
+    "image": "0f823045-a1fa-40b3-a7e8-72d423bbb85d.jpg",
+    "price": "33"
+  },
+  {
+    "id": 3,
+    "title": "smart2",
+    "image": "7138fc56-938b-4161-89c0-71c20758c0ec.jpg",
+    "price": "22"
+  },
+  {
+    "id": 4,
+    "title": "smart3",
+    "image": "2001b46a-34c3-4d2b-b5f8-a96c8eb86f73.jpg",
+    "price": "22"
+  },
+  {
+    "id": 5,
+    "title": "feature",
+    "image": "13ddb108-5804-4ba3-b174-74f12e7758c6.png",
+    "price": "22"
+  },
+  {
+    "id": 6,
+    "title": "feature2",
+    "image": "2ce83ce7-9e7c-41d9-95be-00e9fcb4cc4a.png",
+    "price": "22"
+  },
+  {
+    "id": 7,
+    "title": "1",
+    "image": "9152e0ee-275f-4e54-873c-ec8d679e19af.png",
+    "price": "22"
+  },
+  {
+    "id": 8,
+    "title": "2",
+    "image": "0bbee95e-edcf-4443-aae9-c985a45fb2dc.png",
+    "price": "22"
+  },
+  {
+    "id": 9,
+    "title": "3",
+    "image": "0b345cac-5b34-4fba-8663-14705e81c48d.png",
+    "price": "22"
+  },
+  {
+    "id": 10,
+    "title": "4",
+    "image": "93db690c-11f6-4d8c-9316-642394144159.png",
+    "price": "22"
+  },
+  {
+    "id": 11,
+    "title": "5",
+    "image": "6b45f9f8-0351-478f-a4fe-51f1a74064d9.png",
+    "price": "22"
+  },
+  {
+    "id": 12,
+    "title": "6",
+    "image": "84b29c20-b62a-4c28-9e76-c2a205123008.png",
+    "price": "22"
+  },
+  {
+    "id": 13,
+    "title": "footer",
+    "image": "11f5858d-dae6-42b0-9574-953e415b008a.jpg",
+    "price": "22"
+  },
+  {
+    "id": 14,
+    "title": "banner4",
+    "image": "c60fb409-bfb2-411e-bc11-18867476b5e5.jpg",
+    "price": "22"
+  }
+]

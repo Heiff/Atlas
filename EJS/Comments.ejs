@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+         width: 90%;
+         margin: 0 auto;
+         padding: 10px 0;
+         display: flex;
+         justify-content: space-between;
+     }
+     .logins input{
+         background: #192440;
+         color: white;
+         border: none;
+         padding: 5px 10px;
+         border-radius: 5px;
+     }
+     .logins{
+         display: flex;
+         gap: 0 10px;
+     }
+     .nav2{
+         display: flex;
+         gap: 0 30px;
+     }
+     .nav2 button{
+         border-radius: 5px;
+         border: 1px solid black;
+     }
+     nav h1{
+       padding: 3px 10px;
+       border-radius: 5px;
+       color: white;
+       font-size: 26px;
+       background: gray;
+       width: max-content;
+       margin: 0;
+     }
+     .cards{
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+     }
+     .card{
+        min-height: 100px;
+        text-align: center;
+        border: 1px solid gray;
+     }
+     a{
+        color: black;
+        text-decoration: none;
+     }
+     .comment{
+        padding-top: 30px;
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+     }
+     h2{
+        display: flex;
+        justify-content: center;
+     }
+ </style>
+ 
+ <body>
+   <nav>
+     <div class="nav2">
+         <h1>Atlas</h1>
+         <button disabled="true"><a href="/home" style="color: black;
+            text-decoration: none;">Home</a></button>
+         <button disabled="true">About</button>
+         <button disabled="true">Contact</button>
+         <button disabled="true">Maps</button>
+     </div>
+     <div class="logins">
+         <form action="/log/ejs">
+         <input type="submit" value="Login">
+         </form>
+         <form action="/reg/ejs">
+             <input type="submit" value="Register">
+             </form>
+             <form action="/admin/ejs">
+                 <input type="submit" value="Admin">
+                 </form>
+     </div>
+   </nav>
+   <h2>Products</h2>
+   <div class="cards">
+            <% data.map(el => { %>
+                <div class="card">
+                    <p><%= el.id%></p>
+                    <h2><%= el.title %></h2>  
+                    <img src=<%=el.image%>>
+                    <h3><%=el.price%></h3>
+                </div>
+           <% })%>
+        </div>
+        <h2>Comments</h2>
+        <div class="comment">
+            <% comment.map(el => { %>
+                <div class="card">
+                    <p><%= el.id %></p>
+                    <h3><%= el.name %></h3>
+                    <h4><%= el.email %></h4>
+                    <p><%= el.message %></p>
+                </div>
+            <% }) %>
+        </div>
+</body>
+</html>
